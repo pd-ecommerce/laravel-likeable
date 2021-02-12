@@ -30,14 +30,15 @@
   },
   "require": {
     "php": "^7.3",
-    "illuminate/database": "~v6.20.16",
-    "illuminate/support": "~v6.20.16"
+    "laravel/framework": "^v7.30.4",
+    "illuminate/database": "^v7.30.4",
+    "illuminate/support": "^v7.30.4"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^v2.18.0",
     "mockery/mockery": "^1.4.0",
-    "orchestra/database": "^v4.3.0",
-    "orchestra/testbench": "^v4.15.0",
+    "orchestra/database": "^v5.1.0",
+    "orchestra/testbench": "^v5.17.0",
     "phpunit/phpunit": "^9.3.0"
   },
   "autoload": {
