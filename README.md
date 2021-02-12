@@ -11,14 +11,16 @@
 
 ## Attention
 
-**This package is abandoned and no longer maintained. 
-Development moved to [Laravel Love package](https://github.com/cybercog/laravel-love)!**
+**This package is abandoned and no longer maintained. Development moved
+to [Laravel Love package](https://github.com/cybercog/laravel-love)!**
 
-If you already have installed version of Laravel Likeable you can use [Laravel Love Migration Guide](https://github.com/cybercog/laravel-love/blob/master/UPGRADING.md#from-v3-to-v4). 
+If you already have installed version of Laravel Likeable you can
+use [Laravel Love Migration Guide](https://github.com/cybercog/laravel-love/blob/master/UPGRADING.md#from-v3-to-v4).
 
 ## Introduction
 
-Laravel Likeable simplify management of Eloquent model's likes & dislikes. Make any model `likeable` & `dislikeable` in a minutes!
+Laravel Likeable simplify management of Eloquent model's likes & dislikes. Make any model `likeable` & `dislikeable` in
+a minutes!
 
 ## Contents
 
@@ -52,9 +54,9 @@ Laravel Likeable simplify management of Eloquent model's likes & dislikes. Make 
 - Get Likeable models ordered by likes count.
 - Events for `like`, `unlike`, `dislike`, `undislike` methods.
 - Following PHP Standard Recommendations:
-  - [PSR-1 (Basic Coding Standard)](http://www.php-fig.org/psr/psr-1/).
-  - [PSR-2 (Coding Style Guide)](http://www.php-fig.org/psr/psr-2/).
-  - [PSR-4 (Autoloading Standard)](http://www.php-fig.org/psr/psr-4/).
+    - [PSR-1 (Basic Coding Standard)](http://www.php-fig.org/psr/psr-1/).
+    - [PSR-2 (Coding Style Guide)](http://www.php-fig.org/psr/psr-2/).
+    - [PSR-4 (Autoloading Standard)](http://www.php-fig.org/psr/psr-4/).
 - Covered with unit tests.
 
 ## Installation
@@ -62,10 +64,10 @@ Laravel Likeable simplify management of Eloquent model's likes & dislikes. Make 
 First, pull in the package through Composer.
 
 ```sh
-$ composer require cybercog/laravel-likeable
+$ composer require pd-ecommerce/laravel-likeable
 ```
 
-**If you are using Laravel 5.5 you can skip register package part.** 
+**If you are using Laravel 5.5 you can skip register package part.**
 
 #### Register package on Laravel 5.4 and lower
 
@@ -90,7 +92,7 @@ $ php artisan migrate
 
 ### Prepare likeable model
 
-Use `Likeable` contract in model which will get likes behavior and implement it or just use `Likeable` trait. 
+Use `Likeable` contract in model which will get likes behavior and implement it or just use `Likeable` trait.
 
 ```php
 use Cog\Likeable\Contracts\Likeable as LikeableContract;
@@ -375,7 +377,9 @@ You can override core classes of package with your own implementations:
 
 *Note: Don't forget that all custom models must implement original models interfaces.*
 
-To make it you should use container [binding interfaces to implementations](https://laravel.com/docs/master/container#binding-interfaces-to-implementations) in your application service providers.
+To make it you should use
+container [binding interfaces to implementations](https://laravel.com/docs/master/container#binding-interfaces-to-implementations)
+in your application service providers.
 
 ##### Use model class own implementation
 
@@ -445,7 +449,8 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## About CyberCog
 
-[CyberCog](https://cybercog.su) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
+[CyberCog](https://cybercog.su) is a Social Unity of enthusiasts. Research best solutions in product & software
+development is our passion.
 
 - [Follow us on Twitter](https://twitter.com/cybercog)
 - [Read our articles on Medium](https://medium.com/cybercog)
