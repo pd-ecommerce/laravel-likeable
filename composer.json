@@ -1,5 +1,5 @@
 {
-  "name": "cybercog/laravel-likeable",
+  "name": "pd-ecommerce/laravel-likeable",
   "description": "Make Laravel Eloquent models Likeable & Dislikeable in a minutes!",
   "type": "library",
   "license": "MIT",
@@ -21,21 +21,12 @@
     "star",
     "kudos"
   ],
-  "authors": [
-    {
-      "name": "Anton Komarev",
-      "email": "anton@komarev.com",
-      "homepage": "https://komarev.com",
-      "role": "Developer"
-    }
-  ],
-  "homepage": "https://github.com/cybercog/laravel-likeable",
+  "homepage": "https://github.com/pd-ecommerce/laravel-likeable",
   "support": {
-    "email": "open@cybercog.su",
-    "issues": "https://github.com/cybercog/laravel-likeable/issues",
-    "wiki": "https://github.com/cybercog/laravel-likeable/wiki",
-    "source": "https://github.com/cybercog/laravel-likeable",
-    "docs": "https://github.com/cybercog/laravel-likeable/wiki"
+    "issues": "https://github.com/pd-ecommerce/laravel-likeable/issues",
+    "wiki": "https://github.com/pd-ecommerce/laravel-likeable/wiki",
+    "source": "https://github.com/pd-ecommerce/laravel-likeable",
+    "docs": "https://github.com/pd-ecommerce/laravel-likeable/wiki"
   },
   "require": {
     "php": "^7.3",
